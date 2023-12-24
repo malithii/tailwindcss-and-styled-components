@@ -10,10 +10,6 @@ const ControlContainer = styled.div`
     margin-bottom: 1.5rem;
 ` 
 
-
-
-
-    //using : before hover => because it is not a child property we are adding hover styles to button itself
 export default function AuthInputs() {
   const [enteredEmail, setEnteredEmail] = useState('');
   const [enteredPassword, setEnteredPassword] = useState('');

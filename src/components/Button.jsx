@@ -15,5 +15,5 @@ const Button = styled.button`
     }
 
 `
-
+    //using : before hover => because it is not a child property we are adding hover styles to button itself
 export default Button;
