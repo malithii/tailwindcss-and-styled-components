@@ -44,6 +44,7 @@ const StyledHeader = styled.header`
   }
 `;
 
+ //after copy pasting css styles of child elements replace header with &
 export default function Header() {
   return (
     <StyledHeader>
